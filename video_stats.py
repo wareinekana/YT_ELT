@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 load_dotenv(dotenv_path = "./.env")
 
 API_KEY=os.getenv("API_KEY")
+#API_KEY="AIzaSyBNW25D4OYWbBEVXj1CNIKqxdka2HaqKVA"
 CHANNEL="MrBeast"
 
 def get_player_id():
